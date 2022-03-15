@@ -1,0 +1,17 @@
+String Info;
+int Number; 
+Console.WriteLine("Please enter your message and press enter");
+String Info = Console.ReadLine();
+Console.WriteLine("Please enter a number LESS THAN the length of your string and press enter");
+Number = int.Parse(Console.ReadLine());
+Char Alphabet;
+Console.WriteLine("For which character should I search in your original message?");
+Alphabet = Console.ReadLine();
+Console.WriteLine("What's your First Name?");
+String Name = Console.ReadLine();
+Console.WriteLine("What's Your Last Name?");
+String LastName = Console.ReadLine();
+Console.WriteLine("Your Full Name is: " Name + " " + LastName);
+Console.WriteLine("The Initials: " + Name.Substring(0,1) +"/"+ LastName.Substring(0,1));
+Console.WriteLine("First Name: " + Name +" LastName: "+ LastName.Substring(0,2));
+Console.WriteLine("User's Last Name Length: " + LastName.length);
